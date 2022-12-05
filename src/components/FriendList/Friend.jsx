@@ -13,7 +13,7 @@ export const Friend = ({ name, avatar, isOnline }) => {
     );
 };
 
-Friend.propTypes = {
+/*Friend.propTypes = {
     friends: PropTypes.arrayOf(
         PropTypes.exact({
             id: PropTypes.number.isRequired,
@@ -22,4 +22,10 @@ Friend.propTypes = {
             isOnline: PropTypes.bool.isRequired,
         })
     ).isRequired,
+};*/
+
+Friend.propTypes = {
+    avatar: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    isOnline: PropTypes.bool.isRequired,
 };

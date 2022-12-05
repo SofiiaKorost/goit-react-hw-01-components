@@ -1,81 +1,55 @@
-.profile {
+.statistics {
     margin: auto;
-    margin-bottom: 20px;
-    width: 400px;
-    height: 450px;
-    padding: 20px;
-    background: var(--color-bg-dark);
-    border-radius: 10%;
+    margin-top: 20px;
+    width: 600px;
+    align-items: center;
+    background: #f5f4fa;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.discription {
-    width: 100%;
-}
-
-.avatar {
-    margin: 0 auto;
-    width: 200px;
-    border-radius: 50%;
-    background: var(--color-accent-gray);
-}
-
-.name {
-    margin-bottom: 16px;
-    font-weight: 500;
+.title {
+    font-weight: 700;
     font-size: 30px;
-    line-height: 1.18;
+    line-height: 1.66;
+    color: #212121;
     text-align: center;
+    text-transform: uppercase;
 }
 
-.tag {
-    margin-bottom: 8px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-    color: var(--color-secondary-text);
-}
-
-.location {
-    margin-bottom: 16px;
-
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-    color: var(--color-secondary-text);
-}
-
-.stats {
+.statList {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+    align-items: center;
+    padding: 20px 0;
 }
 
-.stats>li {
+.item {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 56px;
-    border-radius: 10%;
-    border: 1px;
-    border: 3px solid var(--color-accent-gray);
-    background: var(--color-bg-middle);
+    width: 100px;
+    height: 80px;
+    border: 2px solid #afb1b8;
+    border-radius: 10px;
 }
 
 .label {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.18;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.66;
     text-align: center;
-    color: var(--color-secondary-text);
+    color: #757575;
 }
 
-.quantity {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
+.percentage {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.66;
+    color: #212121;
+    text-align: center;
 }
